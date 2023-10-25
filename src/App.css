@@ -1,0 +1,27 @@
+:root {
+  --primary: hsl(0 100% 80% / 1);
+  --primary-dark: hsl(0 100% 70% / 1);
+  --text: #555;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color: var(--text);
+  color-scheme: dark;
+}
+
+body {
+  line-height: 1.4;
+}
+
+header,
+main {
+  margin: 0 auto;
+  max-width: 90vw;
+  width: 54ch;
+}
